@@ -24,7 +24,7 @@ const Feedback = () => {
     if (total === 0) {
       return 0;
     }
-    const { good, bad } = feedback;
+    const { good } = feedback;
     return Math.round((good / total) * 100);
   };
 
